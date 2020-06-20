@@ -26,11 +26,18 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       <p align="center">
-        <img src="./assets/imgs/github.png" width="75">
-        <img src="./assets/imgs/linkedin.png" width="75">
-        <a href="mailto:svillafernandez@gmail.com">
+        <a href="https://github.com/EmanuelVF">
+          <img src="./assets/imgs/github.png" width="75">
+        </a>
+
+        <a href="https://www.linkedin.com/in/emanuelvillafernandez/">
+          <img src="./assets/imgs/linkedin.png" width="75">
+        </a>
+
+        <a href="mailto:emanuelvillafernandez@gmail.com">
           <img src="./assets/imgs/mail.png" width="75">
         </a>
+
       </p>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
